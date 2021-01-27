@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jan 25 21:46:55 2021
+Created on Mon Jan 25 21:46:55 2021 
 
 @author: @gkuster
-"""import pandas as pd
+"""
+import pandas as pd
 from sklearn.model_selection import train_test_split
 
 base_dados = pd.read_csv('iris.csv')
